@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  times: MyString
+  bar_id: 
+
+two:
+  description: MyText
+  times: MyString
+  bar_id: 
