@@ -1,4 +1,5 @@
 class SpecialsController < ApplicationController
+  filter_access_to :all
   before_action :set_special, only: [:show, :edit, :update, :destroy]
 
   # GET /specials

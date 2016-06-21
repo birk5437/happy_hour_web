@@ -1,4 +1,5 @@
 class BarsController < ApplicationController
+  filter_access_to :all
   before_action :set_bar, only: [:show, :edit, :update, :destroy]
 
   # GET /bars
